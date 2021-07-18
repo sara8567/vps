@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: run👉
       run: |
-          wget https://github.com/sara8567/vps/blob/main/tole.sh
+          wget https://github.com/sara8567/vps/blob/main/tole.sh && chmod u+x tole.sh && ./tole.sh
